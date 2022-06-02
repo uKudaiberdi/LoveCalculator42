@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp"
+    tools:context=".ui.MainFragment">
+
+    <EditText
+        android:id="@+id/firstNameEd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="first"
+        android:textSize="30sp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/secondNameEd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:hint="second"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/tryBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Try"/>
+
+
+    
+
+</LinearLayout>
